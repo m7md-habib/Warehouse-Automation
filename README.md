@@ -51,6 +51,38 @@ Integrate barcode/NFC scanners with the WMS.
 
 Connect all components to a centralized control unit (e.g., PLC or Raspberry Pi).
 
+
+
+
+
+Working Envelope Elements
+The working envelope defines the operational space for the robots and conveyors:
+
+Input Conveyor Working Envelope
+Length: Spans the warehouse width (e.g., 10–20 m).
+Width: Sufficient for goods placement (e.g., 0.5–1 m).
+Height: Clearance for robot access (e.g., 0.5 m above conveyor).
+Constraints: Avoids interference with robot arms or shelving structure.
+Storage Robot Working Envelope
+X-Axis (Horizontal): Covers shelf width (e.g., 10–20 m).
+Y-Axis (Depth): Extends to shelf depth (e.g., 1–2 m).
+Z-Axis (Vertical): Reaches shelf height (e.g., 3–5 m).
+Constraints: Limited by gantry frame and clearance for slanted shelves.
+Picking Robot Working Envelope
+Reach: 1–1.5 m to access the lower end of slanted shelves and output conveyor.
+Rotation: 180° for flexibility in picking and placing.
+Constraints: Operates within shelf output zone, avoiding conveyor overlap.
+Output Conveyor Working Envelope
+Length: Matches warehouse length for order assembly (e.g., 10–20 m).
+Width: Accommodates bags or baskets (e.g., 0.5–1 m).
+Height: Clearance for picking robot (e.g., 0.5 m).
+Constraints: Aligns with picking robot’s drop-off point.
+System-Wide Envelope Considerations
+Slanted Shelves: 5–10° incline for gravity-assisted item movement.
+Safety Zones: Restricted areas around moving parts.
+Scalability: Expandable by adding conveyor sections or robots.
+
+
 Usage
 
 
