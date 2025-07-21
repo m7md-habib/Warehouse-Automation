@@ -118,3 +118,7 @@ Calibrate robot grippers and sensors monthly.
 
 
 Update WMS software with the latest inventory data.
+
+image:
+<img width="1465" height="778" alt="لقطة شاشة 2025-07-21 144419" src="https://github.com/user-attachments/assets/dfc5a2f5-a888-4de5-aa60-d97f627073ad" />
+
